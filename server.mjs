@@ -31,6 +31,6 @@ app.get('/todo/:id', (req, res) => {
 	res.json({ data: todo });
 });
 
-app.listen(process.env.PORT, () => {
+app.listen(8000, () => {
 	console.log(`Server on http://localhost:8000`);
 });
